@@ -1,0 +1,80 @@
+body{
+	background-image: url(https://news.sap.com/africa/files/2017/08/robotics-and-iot1.jpg);
+	background-size: cover;
+}
+
+header{
+	color:white;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+
+}
+
+li{
+	display: inline-block;
+	list-style: none;
+	}
+
+.links{
+	text-align: right;
+	position: relative;
+	bottom: 90px;
+}
+
+.circle{
+	color: white;
+	background-color: silver;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	transition: 1s 1s ;
+	position: relative;
+left: 250px;
+top: 100px;
+text-align: center;
+vertical-align: middle;
+display: table-cell;
+}
+
+.circle:hover{
+	transform: translate(150px,-100px) scale(3);
+	background-color: #C5B358;
+}
+p{
+	color: silver;
+	text-decoration: underline;
+	text-transform: uppercase;
+
+}
+
+.p{
+	position: relative;
+	top: 250px;
+	font-weight: bold;
+}
+
+.btn{
+	font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: silver;
+  border-color: white; }
+
+.btn-primary:hover {
+  background-color: #D4AF37;
+  border-color: black;
+  border-width: 5px;
+  cursor: pointer;
+}
+.btn{
+	position: relative;
+	top: 290px;
+	left: 100px;
+  }
